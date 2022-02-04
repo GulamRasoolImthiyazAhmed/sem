@@ -6,4 +6,4 @@ new test 12312
 [![LICENSE](https://img.shields.io/github/license/GulamRasoolImthiyazAhmed/sem.svg?style=flat-square)](https://github.com/GulamRasoolImthiyazAhmed/sem/blob/master/LICENSE)
 [![Releases](https://img.shields.io/github/release/GulamRasoolImthiyazAhmed/sem/all.svg?style=flat-square)](https://github.com/GulamRasoolImthiyazAhmed/sem/releases)
 # Software Engineering Methods
-![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/GulamRasoolImthiyazAhmed/sem/Helloworldaction/develop?style=flat-square)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/GulamRasoolImthiyazAhmed/sem/Checkout/develop?style=flat-square)
