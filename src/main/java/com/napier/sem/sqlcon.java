@@ -1,11 +1,14 @@
 package com.napier.sem;
-
 import java.sql.*;
-
-public class App
-{
+public class sqlcon {
+    /**
+     * Connection to MySQL database.
+     */
     private Connection con = null;
 
+    /**
+     * Connect to the MySQL database.
+     */
     public void connect()
     {
         try
@@ -43,6 +46,10 @@ public class App
             }
         }
     }
+
+    /**
+     * Disconnect from the MySQL database.
+     */
     public void disconnect()
     {
         if (con != null)
@@ -57,14 +64,5 @@ public class App
                 System.out.println("Error closing connection to database");
             }
         }
-    }
-
-
-    public static void main(String[] args)
-    {
-       App ap=new App();
-
-       ap.connect();
-       ap.disconnect();
     }
 }
