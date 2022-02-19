@@ -55,10 +55,10 @@ public class App
                 System.out.println("Successfully connected");
                 break;
             }
-            catch (SQLException sqle)
+            catch (SQLException sql)
             {
                 System.out.println("Failed to connect to database attempt " + Integer.toString(i));
-                System.out.println(sqle.getMessage());
+                System.out.println(sql.getMessage());
             }
             catch (InterruptedException ie)
             {
