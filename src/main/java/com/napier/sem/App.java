@@ -36,7 +36,7 @@ public class App
                     // Connect to database
                     con = DriverManager.getConnection("jdbc:mysql://db:3306/employees?useSSL=false", "root", "example");
                     System.out.println("Successfully connected 1");
-                   // break;
+                  break;
                 }
                 catch (SQLException sqle)
                 {
